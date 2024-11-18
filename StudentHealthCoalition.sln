@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2A9A2F98-8C99-41F0-BA7D-06A325EA3A37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentHealthCoalition", "src\StudentHealthCoalition\StudentHealthCoalition.csproj", "{8C97ED33-D177-47F0-B0A1-48856484F4C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentHealthCoalition.API", "src\StudentHealthCoalition.API\StudentHealthCoalition.API.csproj", "{B7F0AD28-930D-4B4E-A4C9-90F3174F2A2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentHealthCoalition.Infrastructure", "src\StudentHealthCoalition.Infrastructure\StudentHealthCoalition.Infrastructure.csproj", "{0CB18B94-B177-4102-B58E-CEE26279012D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentHealthCoalition.Domain", "src\StudentHealthCoalition.Domain\StudentHealthCoalition.Domain.csproj", "{6BBF2DA0-D274-488A-A566-4EA70FCBB6C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentHealthCoalition.Application", "src\StudentHealthCoalition.Application\StudentHealthCoalition.Application.csproj", "{32F8E96D-61D4-43E3-ABCD-6A23523DE49D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C97ED33-D177-47F0-B0A1-48856484F4C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C97ED33-D177-47F0-B0A1-48856484F4C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C97ED33-D177-47F0-B0A1-48856484F4C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C97ED33-D177-47F0-B0A1-48856484F4C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F0AD28-930D-4B4E-A4C9-90F3174F2A2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F0AD28-930D-4B4E-A4C9-90F3174F2A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F0AD28-930D-4B4E-A4C9-90F3174F2A2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F0AD28-930D-4B4E-A4C9-90F3174F2A2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB18B94-B177-4102-B58E-CEE26279012D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB18B94-B177-4102-B58E-CEE26279012D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB18B94-B177-4102-B58E-CEE26279012D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB18B94-B177-4102-B58E-CEE26279012D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BBF2DA0-D274-488A-A566-4EA70FCBB6C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BBF2DA0-D274-488A-A566-4EA70FCBB6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BBF2DA0-D274-488A-A566-4EA70FCBB6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BBF2DA0-D274-488A-A566-4EA70FCBB6C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F8E96D-61D4-43E3-ABCD-6A23523DE49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F8E96D-61D4-43E3-ABCD-6A23523DE49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F8E96D-61D4-43E3-ABCD-6A23523DE49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F8E96D-61D4-43E3-ABCD-6A23523DE49D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8C97ED33-D177-47F0-B0A1-48856484F4C4} = {2A9A2F98-8C99-41F0-BA7D-06A325EA3A37}
+		{B7F0AD28-930D-4B4E-A4C9-90F3174F2A2F} = {2A9A2F98-8C99-41F0-BA7D-06A325EA3A37}
+		{0CB18B94-B177-4102-B58E-CEE26279012D} = {2A9A2F98-8C99-41F0-BA7D-06A325EA3A37}
+		{6BBF2DA0-D274-488A-A566-4EA70FCBB6C6} = {2A9A2F98-8C99-41F0-BA7D-06A325EA3A37}
+		{32F8E96D-61D4-43E3-ABCD-6A23523DE49D} = {2A9A2F98-8C99-41F0-BA7D-06A325EA3A37}
+	EndGlobalSection
+EndGlobal
