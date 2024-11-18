@@ -1,4 +1,6 @@
-﻿@inherits LayoutComponentBase
+﻿@using MudBlazor
+@using MudBlazor.Components
+@inherits LayoutComponentBase
 
 <MudThemeProvider Theme="_currentTheme" />
 <MudDialogProvider FullWidth="true" MaxWidth="MaxWidth.ExtraSmall" />
@@ -7,12 +9,9 @@
 <MudLayout RightToLeft="@_rightToLeft">
     <MudAppBar Elevation="25">
         <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
-        <MudHidden Breakpoint="Breakpoint.SmAndUp" Invert="true">
-            <MudText Typo="Typo.h5" Class="mudblazor-appbar-brand-text">Mudblazor</MudText>
-        </MudHidden>
-        <MudAppBarSpacer />
-
-        <MudAppBarSpacer />
+            <MudHidden Breakpoint="Breakpoint.SmAndUp" Invert="true">
+                <MudText Typo="Typo.h5" Class="mudblazor-appbar-brand-text">Mudblazor</MudText>
+            </MudHidden>
         <MudHidden Breakpoint="Breakpoint.MdAndUp" Invert="true">
             <MudTooltip Text="Toggle light/dark theme">
                 <MudIconButton Icon="@Icons.Material.Filled.Brightness4" Color="Color.Inherit" OnClick="@((e) => DarkMode())" />
@@ -22,7 +21,7 @@
             </MudTooltip>
         </MudHidden>
         <MudHidden Breakpoint="Breakpoint.SmAndDown" Invert="true">
-            <MudMenu Icon="@Icons.Filled.Settings" Color="Color.Inherit" Dense="true" Direction="Direction.Right" OffsetY="true">
+            <MudMenu Icon="@MudBlazor.Icons.Material.Filled.Settings" Color="Color.Inherit" Dense="true" Direction="Direction.Right" OffsetY="true">
                 <div class="px-2">
                     <MudIconButton Icon="@Icons.Material.Filled.Brightness4" Color="Color.Inherit" OnClick="@((e) => DarkMode())" />
                     <MudIconButton Icon="@Icons.Material.Filled.FormatTextdirectionRToL" Color="Color.Inherit" OnClick="@((e) => RightToLeftToggle())" />
@@ -57,7 +56,6 @@
             <MudFab Icon="@Icons.Material.Filled.KeyboardArrowUp" Color="Color.Primary" />
         </MudScrollToTop>
     </MudMainContent>
-
 </MudLayout>
 
 @code
@@ -101,7 +99,7 @@
     private readonly MudTheme _defaultTheme =
         new MudTheme()
         {
-            Palette = new Palette()
+            PaletteLight = new MudBlazor.PaletteLight()
             {
                 Black = "#272c34"
             }
@@ -109,11 +107,10 @@
     private readonly MudTheme _darkTheme =
         new MudTheme()
         {
-            Palette = new Palette()
+            PaletteDark = new MudBlazor.PaletteDark()
             {
                 Black = "#27272f",
                 Background = "#32333d",
-                BackgroundGrey = "#27272f",
                 Surface = "#373740",
                 DrawerBackground = "#27272f",
                 DrawerText = "rgba(255,255,255, 0.50)",

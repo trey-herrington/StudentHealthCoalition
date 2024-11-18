@@ -1,0 +1,69 @@
+/* _content/StudentHealthCoalition/Components/Layout/MainLayout.razor.rz.scp.css */
+.mudblazor-logo[b-ihh927s6zm] {
+    width: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* _content/StudentHealthCoalition/Components/Layout/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-dd2kawoy7g] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-dd2kawoy7g] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-dd2kawoy7g] {
+    font-size: 1.1rem;
+}
+
+.oi[b-dd2kawoy7g] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-dd2kawoy7g] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-dd2kawoy7g] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-dd2kawoy7g] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-dd2kawoy7g]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-dd2kawoy7g]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-dd2kawoy7g]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-dd2kawoy7g] {
+        display: none;
+    }
+
+    .collapse[b-dd2kawoy7g] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}

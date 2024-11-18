@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\StudentHealthCoalition.csproj": {}
+    "c:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\StudentHealthCoalition.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\StudentHealthCoalition.csproj": {
+    "c:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\StudentHealthCoalition.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\StudentHealthCoalition.csproj",
+        "projectUniqueName": "c:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\StudentHealthCoalition.csproj",
         "projectName": "StudentHealthCoalition",
-        "projectPath": "C:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\StudentHealthCoalition.csproj",
+        "projectPath": "c:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\StudentHealthCoalition.csproj",
         "packagesPath": "C:\\Users\\Since\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\obj\\",
+        "outputPath": "c:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
