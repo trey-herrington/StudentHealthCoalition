@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "2j4rsl9Dtl0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition.API\\StudentHealthCoalition.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Since\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.0\\microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "C:\\Users\\Since\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

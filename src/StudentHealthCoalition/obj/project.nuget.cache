@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TPQ6fKTQsr8=",
+  "dgSpecHash": "hqHSQx1klo0=",
   "success": true,
-  "projectFilePath": "c:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\StudentHealthCoalition.csproj",
+  "projectFilePath": "C:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\StudentHealthCoalition.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Since\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.8\\microsoft.aspnetcore.authorization.8.0.8.nupkg.sha512",
     "C:\\Users\\Since\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.8\\microsoft.aspnetcore.components.8.0.8.nupkg.sha512",
@@ -19,6 +19,7 @@
     "C:\\Users\\Since\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\Since\\.nuget\\packages\\microsoft.jsinterop\\8.0.8\\microsoft.jsinterop.8.0.8.nupkg.sha512",
     "C:\\Users\\Since\\.nuget\\packages\\mudblazor\\7.15.0\\mudblazor.7.15.0.nupkg.sha512",
+    "C:\\Users\\Since\\.nuget\\packages\\mudblazor.templates\\2.2.0\\mudblazor.templates.2.2.0.nupkg.sha512",
     "C:\\Users\\Since\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512"
   ],
   "logs": []

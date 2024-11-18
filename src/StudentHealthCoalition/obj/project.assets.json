@@ -253,6 +253,9 @@
           "buildMultiTargeting/MudBlazor.props": {}
         }
       },
+      "MudBlazor.Templates/2.2.0": {
+        "type": "package"
+      },
       "System.IO.Pipelines/8.0.0": {
         "type": "package",
         "compile": {
@@ -664,6 +667,121 @@
         "staticwebassets/MudBlazor.min.js"
       ]
     },
+    "MudBlazor.Templates/2.2.0": {
+      "sha512": "sQ6bRN8UKuGUfT87Havp05HspSLrLdewAsDFOhIlMHbSXAlohwrmbZfvT5LROIHD+AqRuZ36kL4WoOVEpWGYPg==",
+      "type": "package",
+      "path": "mudblazor.templates/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "Nuget.png",
+        "README.md",
+        "content/mudblazor/.template.config/dotnetcli.host.json",
+        "content/mudblazor/.template.config/icon.png",
+        "content/mudblazor/.template.config/ide.host.json",
+        "content/mudblazor/.template.config/localize/templatestrings.cs.json",
+        "content/mudblazor/.template.config/localize/templatestrings.de.json",
+        "content/mudblazor/.template.config/localize/templatestrings.en.json",
+        "content/mudblazor/.template.config/localize/templatestrings.es.json",
+        "content/mudblazor/.template.config/localize/templatestrings.fr.json",
+        "content/mudblazor/.template.config/localize/templatestrings.it.json",
+        "content/mudblazor/.template.config/localize/templatestrings.ja.json",
+        "content/mudblazor/.template.config/localize/templatestrings.ko.json",
+        "content/mudblazor/.template.config/localize/templatestrings.pl.json",
+        "content/mudblazor/.template.config/localize/templatestrings.pt-BR.json",
+        "content/mudblazor/.template.config/localize/templatestrings.ru.json",
+        "content/mudblazor/.template.config/localize/templatestrings.tr.json",
+        "content/mudblazor/.template.config/localize/templatestrings.zh-Hans.json",
+        "content/mudblazor/.template.config/localize/templatestrings.zh-Hant.json",
+        "content/mudblazor/.template.config/template.json",
+        "content/mudblazor/MudBlazor.Template.Client/MudBlazor.Template.Client.csproj",
+        "content/mudblazor/MudBlazor.Template.Client/Pages/Auth.razor",
+        "content/mudblazor/MudBlazor.Template.Client/Pages/Counter.razor",
+        "content/mudblazor/MudBlazor.Template.Client/Pages/Weather.razor",
+        "content/mudblazor/MudBlazor.Template.Client/PersistentAuthenticationStateProvider.cs",
+        "content/mudblazor/MudBlazor.Template.Client/Program.Main.cs",
+        "content/mudblazor/MudBlazor.Template.Client/Program.cs",
+        "content/mudblazor/MudBlazor.Template.Client/UserInfo.cs",
+        "content/mudblazor/MudBlazor.Template.Client/_Imports.razor",
+        "content/mudblazor/MudBlazor.Template.Client/wwwroot/appsettings.Development.json",
+        "content/mudblazor/MudBlazor.Template.Client/wwwroot/appsettings.json",
+        "content/mudblazor/MudBlazor.Template.sln",
+        "content/mudblazor/MudBlazor.Template/Components/Account/IdentityComponentsEndpointRouteBuilderExtensions.cs",
+        "content/mudblazor/MudBlazor.Template/Components/Account/IdentityNoOpEmailSender.cs",
+        "content/mudblazor/MudBlazor.Template/Components/Account/IdentityRedirectManager.cs",
+        "content/mudblazor/MudBlazor.Template/Components/Account/IdentityRevalidatingAuthenticationStateProvider.cs",
+        "content/mudblazor/MudBlazor.Template/Components/Account/IdentityUserAccessor.cs",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/AccessDenied.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/ConfirmEmail.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/ConfirmEmailChange.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/ExternalLogin.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/ForgotPassword.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/ForgotPasswordConfirmation.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/InvalidPasswordReset.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/InvalidUser.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/Lockout.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/Login.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/LoginWith2fa.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/LoginWithRecoveryCode.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/Manage/ChangePassword.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/Manage/DeletePersonalData.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/Manage/Disable2fa.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/Manage/Email.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/Manage/EnableAuthenticator.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/Manage/ExternalLogins.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/Manage/GenerateRecoveryCodes.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/Manage/Index.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/Manage/PersonalData.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/Manage/ResetAuthenticator.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/Manage/SetPassword.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/Manage/TwoFactorAuthentication.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/Manage/_Imports.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/Register.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/RegisterConfirmation.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/ResendEmailConfirmation.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/ResetPassword.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/ResetPasswordConfirmation.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Pages/_Imports.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/PersistingRevalidatingAuthenticationStateProvider.cs",
+        "content/mudblazor/MudBlazor.Template/Components/Account/PersistingServerAuthenticationStateProvider.cs",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Shared/AccountLayout.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Shared/ExternalLoginPicker.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Shared/ManageLayout.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Shared/ManageNavMenu.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Shared/RedirectToLogin.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Shared/ShowRecoveryCodes.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Account/Shared/StatusMessage.razor",
+        "content/mudblazor/MudBlazor.Template/Components/App.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Layout/MainLayout.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Layout/NavMenu.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Pages/Auth.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Pages/Counter.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Pages/Error.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Pages/Home.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Pages/Weather.razor",
+        "content/mudblazor/MudBlazor.Template/Components/Routes.razor",
+        "content/mudblazor/MudBlazor.Template/Components/_Imports.razor",
+        "content/mudblazor/MudBlazor.Template/Data/ApplicationDbContext.cs",
+        "content/mudblazor/MudBlazor.Template/Data/ApplicationUser.cs",
+        "content/mudblazor/MudBlazor.Template/Data/SqlLite/00000000000000_CreateIdentitySchema.Designer.cs",
+        "content/mudblazor/MudBlazor.Template/Data/SqlLite/00000000000000_CreateIdentitySchema.cs",
+        "content/mudblazor/MudBlazor.Template/Data/SqlLite/ApplicationDbContextModelSnapshot.cs",
+        "content/mudblazor/MudBlazor.Template/Data/SqlServer/00000000000000_CreateIdentitySchema.Designer.cs",
+        "content/mudblazor/MudBlazor.Template/Data/SqlServer/00000000000000_CreateIdentitySchema.cs",
+        "content/mudblazor/MudBlazor.Template/Data/SqlServer/ApplicationDbContextModelSnapshot.cs",
+        "content/mudblazor/MudBlazor.Template/Data/app.db",
+        "content/mudblazor/MudBlazor.Template/MudBlazor.Template.csproj",
+        "content/mudblazor/MudBlazor.Template/Program.Main.cs",
+        "content/mudblazor/MudBlazor.Template/Program.cs",
+        "content/mudblazor/MudBlazor.Template/Properties/launchSettings.json",
+        "content/mudblazor/MudBlazor.Template/appsettings.Development.json",
+        "content/mudblazor/MudBlazor.Template/appsettings.json",
+        "content/mudblazor/MudBlazor.Template/wwwroot/favicon.ico",
+        "mudblazor.templates.2.2.0.nupkg.sha512",
+        "mudblazor.templates.nuspec"
+      ]
+    },
     "System.IO.Pipelines/8.0.0": {
       "sha512": "FHNOatmUq0sqJOkTx+UF/9YK1f180cnW5FVqnQMvYUN0elp6wFzbtPSiqbo1/ru8ICp43JM1i7kKkk6GsNGHlA==",
       "type": "package",
@@ -696,7 +814,8 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "MudBlazor >= 7.15.0"
+      "MudBlazor >= 7.15.0",
+      "MudBlazor.Templates >= 2.2.0"
     ]
   },
   "packageFolders": {
@@ -706,11 +825,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\StudentHealthCoalition.csproj",
+      "projectUniqueName": "C:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\StudentHealthCoalition.csproj",
       "projectName": "StudentHealthCoalition",
-      "projectPath": "c:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\StudentHealthCoalition.csproj",
+      "projectPath": "C:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\StudentHealthCoalition.csproj",
       "packagesPath": "C:\\Users\\Since\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\obj\\",
+      "outputPath": "C:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -724,6 +843,8 @@
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -751,6 +872,10 @@
           "MudBlazor": {
             "target": "Package",
             "version": "[7.15.0, )"
+          },
+          "MudBlazor.Templates": {
+            "target": "Package",
+            "version": "[2.2.0, )"
           }
         },
         "imports": [

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\StudentHealthCoalition.csproj": {}
+    "C:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition.API\\StudentHealthCoalition.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\StudentHealthCoalition.csproj": {
+    "C:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition.API\\StudentHealthCoalition.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\StudentHealthCoalition.csproj",
-        "projectName": "StudentHealthCoalition",
-        "projectPath": "C:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\StudentHealthCoalition.csproj",
+        "projectUniqueName": "C:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition.API\\StudentHealthCoalition.API.csproj",
+        "projectName": "StudentHealthCoalition.API",
+        "projectPath": "C:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition.API\\StudentHealthCoalition.API.csproj",
         "packagesPath": "C:\\Users\\Since\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition\\obj\\",
+        "outputPath": "C:\\Users\\Since\\StudentHealthCoalition\\src\\StudentHealthCoalition.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,13 +51,9 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "MudBlazor": {
+            "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.15.0, )"
-            },
-            "MudBlazor.Templates": {
-              "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
