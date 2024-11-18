@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StudentHealthCoalition")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03cb545af12fcd22826a6e06e8bfa743b2a6f865")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f78017e68b4b23696e74de2dfdbc8616eb15adaa")]
 [assembly: System.Reflection.AssemblyProductAttribute("StudentHealthCoalition")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StudentHealthCoalition")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
